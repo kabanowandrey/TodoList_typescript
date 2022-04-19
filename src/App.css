@@ -1,0 +1,45 @@
+.App {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(71, 71, 196);
+  height: 100vh;
+}
+
+.header {
+  color: white;
+  margin: 0%;
+  padding: 0%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input_task {
+  position: relative;
+  display: flex;
+  width: 60%;
+  align-items: center;
+}
+
+.enter_task {
+  height: 50px;
+  border-radius: 50px;
+  border: none;
+  width: 100%;
+  position: relative;
+  padding-left: 20px;
+}
+
+.button_go {
+  position: absolute;
+  right: 2px;
+  height: 50px;
+  width: 50px;
+  border-radius: 30px;
+  background-color: green;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
